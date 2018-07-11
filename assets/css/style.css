@@ -4,11 +4,13 @@ body {
     
 
 }
+
 header {
     width: 1400px;
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
     clear: both;
+    float: left;
     
 }
 .main-body {
@@ -16,10 +18,15 @@ header {
     float: left;
     background-image: url(../images/ricepaper2.png);
     margin-bottom: 115px;
+    width: 1400px;
 }
 .main-content {
     width: 960px;
+    background-color: #ffffff;
     margin: 45px 30px 40px 30px;
+    padding: 20px;
+    clear: both;
+    float: left;
 }
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;

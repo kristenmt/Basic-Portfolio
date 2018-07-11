@@ -6,8 +6,9 @@ body {
 }
 header {
     width: 1400px;
-    background-color: white;
-    z-index: 5;
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    
 }
 .main-body {
    
@@ -34,10 +35,13 @@ ul, li {
 }
 ul {
     width: 200px;
-    padding-left: 445px;
-    padding-right: 15px;
+    
+    padding: 20px 15px 20px 445px;
 }
-
+hr {
+    border-top: 3px solid #cccccc;
+    
+}
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -50,6 +54,14 @@ li {
 a {
     text-decoration: none;
 }
+
+a:link, a:focus, a:active, a:visited {
+    color: #777777;
+}
+a:hover {
+    color: #4aaaa5;
+}
+
 h2 {
     color: #4aaaa5;
 }

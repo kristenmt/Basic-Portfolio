@@ -84,6 +84,7 @@ footer {
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    clear: both;
 }
 a {
     text-decoration: none;
@@ -102,18 +103,20 @@ h2 {
 
 /* about page */
 .picture-me {
-    position: relative;
+    position: absolute;
     margin: 30px;
     float: left;
-    width: auto;
+    width: 35%;
+    clear: both;
 }
 #my-pic {
-    float: left;
+    width: 35%;
 }
 .bio-text {
-    width: auto;
+    width: 100%;
     position: relative;
     float: left;
+    clear: both;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -147,6 +150,7 @@ form {
 input[type=text] {
     width: 100%;
     height: 25px;
+    color: #cccccc;
 }
 textarea {
     width: 100%;

@@ -8,6 +8,7 @@ header {
     border-bottom: 3px solid #cccccc;
     clear: both;
     float: left;
+    height: 90px;
 }
 .main-body {
     float: left;
@@ -20,7 +21,7 @@ header {
 .main-content {
     width: 960px;
     background-color: #ffffff;
-    margin: 45px 30px 40px 220px;
+    margin: 35px 30px 40px 220px;
     padding: 20px;
     clear: both;
     float: left;
@@ -35,19 +36,23 @@ h1 {
     padding-top: 30px;
     padding-left: 40px;
     margin-left: 220px;
+    margin-top: 0px;
     float: left;
 }
 ul, li {
     float: left;
 }
 ul {
-    width: 230px;
-    
-    padding: 20px 15px 20px 445px;
+    width: 240px;
+    padding: 15px 15px 20px 445px;
 }
 li {
     border-right: 1px solid #cccccc;
     padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding-left: 15px;
+    color: #cccccc;
 }
 li:last-child {
     border-right: none;
@@ -75,11 +80,6 @@ footer {
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-li {
-    list-style: none;
-    padding-left: 15px;
     color: #777777;
 }
 a {

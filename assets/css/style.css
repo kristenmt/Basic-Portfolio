@@ -128,12 +128,12 @@ p {
 h4 {
     background-color: #4aaaa5;
     color: white;
-    width: 400px;
+    width: 300px;
     position: relative;
-    margin-top: -70px;
-    height: 40px;
+    margin-top: -40px;
+    height: 25px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* contact page */

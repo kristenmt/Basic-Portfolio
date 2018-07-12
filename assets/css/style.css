@@ -52,7 +52,6 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     padding-left: 15px;
-    color: #cccccc;
 }
 li:last-child {
     border-right: none;
@@ -76,7 +75,9 @@ footer {
     margin-left: -9px;
     margin-top: -10px;   
     text-align: center;
-    color: #ffffff;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -87,7 +88,7 @@ a {
 }
 
 a:link, a:focus, a:active, a:visited {
-    color: #777777;
+    color: #cccccc;
 }
 a:hover {
     color: #4aaaa5;

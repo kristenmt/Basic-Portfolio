@@ -112,25 +112,12 @@ h2 {
 section {
     width: 100%;
 }
-/*.bio-text {
-    width: 100%;
-    position: relative;
-    float: left;
-    clear: both;
-}*/
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
 }
-
 /* portfolio page */
-#link-one, #link-two, #link-three, #link-four, #link-five {
-    float: left;
-    width: 300px;
-    padding: 20px 100px 20px 20px;
-    margin: 20px;
-}
 h4 {
     background-color: #4aaaa5;
     color: white;
@@ -140,6 +127,14 @@ h4 {
     height: 25px;
     text-align: center;
     padding-top: 5px;
+    float: left;
+}
+#link-one, #link-two, #link-three, #link-four, #link-five {
+    position: relative;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
 }
 
 /* contact page */
